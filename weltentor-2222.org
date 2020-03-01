@@ -1,0 +1,47 @@
+* Thema
+- Erde, um 2222
+- Klimaerwärmung
+- Gesellschaft stark verändert: gemeinsame Weltregierung
+- Portale/"Stargates" aus dem Permafrost getaut (kreisförmig angeordnete Steinplatten, eher wie Stonehenge)
+- "Guardians": mächtige Weltraumrasse, meldet sich über die Portale
+  - Im ewigen Kampf gegen einen Welten-Vernichter
+  - Guardians haben damals Pyramiden, Stonehenge, Religionen gestiftet
+    Teilweise Abtrünnige, die Religionen gestiftet haben
+- Utopie: Frieden im Inneren, Konflikte eher von außen
+- "Bösewichte": Energiewesen, die Welten zerstören.
+  - Borg-ähnliche Idee: Können andere Spezies benutzen/assimilieren
+    z.B. brauchen sie Bioenergie, die sie von versklavten Lebewesen beziehen
+- Es gibt höhere Dimensionen (Hyperspace, Quasispace, The Warp, etc.)
+* Würfelsystem / Basis
+- Zufall sollte ungefähr 30% ausmachen für einen Durchschnitts-Wurf (66% Erfolgs-Chance)
+- W20-System; Fate-Würfel für besondere Situationen (z.B. Patzer/Krits, Übersinnliches, ...)
+- n Attribute, aus Pool von Punkten verteilt bei Generierung
+Vorbemerkung: Namen sind vorläufig und teilweise noch etwas plump.
+- 2 Ressourcen: Gesundheit & Action-Punkte (nur für "Zauberei" -- normale Aktionen kosten keine Punkte)
+- Man hat je nach Stufe verschiedene Action-Skills (z.B. Fliegen, Energiestahl, Telekinese etc.)
+* Attribute (letztlich sind wir doch fast beim DSA-System gelandet)
+  - Stärke
+  - Schnelligkeit/Agilität
+  - Intelligenz
+  - Charisma/Sozialkompetenz
+  - Konstitution (bestimmt Gesundheit)
+  - "Essenz" (bestimmt Action-Punkte; für Magie, Willenskraft, wird durch Implantate verringert)
+    Name verbesserungswürdig: Transzendenz, Bio-Energie, Psi, Reinheit, ...
+  - Wahrnehmung
+  - ?Fingerfertigkeit?
+* Kampf
+- Nah- und Fernkampf getrennt
+- Nahkampf basiert auf Stärke oder Schnelligkeit (je nach Waffe)
+- Fernkampf basiert auf Wahrnehmung oder Fingerfertigkeit (je nach Waffe)
+- Initiative wird am Anfang eines Kampfes (über Essenz -- NICHT: über einen waffenrelevanten Wert ermittelt)
+- NICHT: in umgekehrter INI-Reihenfolge ansagen, dann in richtiger Reihenfolge durchführen
+- In INI-Reihenfolge durchgehen, Aktionen erklären und gleich durchführen (wie bei DSA)
+- Entfernungs-Tabelle für Fernwaffen
+- RS wird von den Trefferpunkten abgezogen
+- Typen von Rüstung
+  - Schnitt-/Stichschaden (Feuerwaffen, Schwerter, ...)
+  - Stumpfer Schaden (Keulen etc.)
+  - Elementarschaden (Feuer, Kälte, Blitz, Säure, ...)
+  - Energieschaden (Laser, Maser, Bobaser, ...)
+  - Magieschaden (Energiestrahlen aus Augen, Händen und sonstigen Körperteilen)
+
