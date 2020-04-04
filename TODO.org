@@ -1,0 +1,24 @@
+#+STARTUP: logdone
+** DONE Dimensionsspringer als Talent entfernen
+   CLOSED: [2020-04-04 Sa 14:57]
+** DONE Konstitutions-/Widerstands-Skill hinzufügen
+   CLOSED: [2020-04-04 Sa 15:04]
+** DONE Elementarweber entfernen
+   CLOSED: [2020-04-04 Sa 15:04]
+** TODO App-Feat: Speichern/Export. Mit Laden/Import wäre cool.
+** DONE System für Verletzungen
+   CLOSED: [2020-04-04 Sa 15:14]
+  - 5 Stufen
+    - Unverletzt
+	- leicht verletzt: leichte Einbußen auf passende Aspekte
+	- mittel verletzt: größere Einbußen auf weitere Aspekte
+	- schwer verletzt: keine aktive Teilnahme am Kampf. Einfache Tätigkeiten (Notruf absetzen) möglich. Tod innerhalb von =x= Zeiteinheiten.
+	- handlungsunfähig: Tod innerhalb von =<x= Zeiteinheiten.
+** DONE App-Bug: nicht mehr als 12 Talente wählbar
+   CLOSED: [2020-04-04 Sa 15:08]
+** TODO Astralmacht (=Stufe): bestimmt die Stärke des Action-Skills
+** DONE App-UI: Abwählen von Skills über "minus"-Button
+   CLOSED: [2020-04-04 Sa 15:07]
+** DONE App-UI: Würfel-Button hinzufügen
+   CLOSED: [2020-04-04 Sa 15:37]
+** TODO App-UI: Reaktiv / Handy-tauglich machen
