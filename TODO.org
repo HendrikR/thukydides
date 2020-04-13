@@ -1,12 +1,12 @@
 #+STARTUP: logdone
-** DONE Dimensionsspringer als Talent entfernen
+** DONE Dimensionsspringer als Talent entfernen                        :rule:
    CLOSED: [2020-04-04 Sa 14:57]
-** DONE Konstitutions-/Widerstands-Skill hinzufügen
+** DONE Konstitutions-/Widerstands-Skill hinzufügen                    :rule:
    CLOSED: [2020-04-04 Sa 15:04]
-** DONE Elementarweber entfernen
+** DONE Elementarweber entfernen                                       :rule:
    CLOSED: [2020-04-04 Sa 15:04]
-** TODO App-Feat: Speichern/Export. Mit Laden/Import wäre cool.
-** DONE System für Verletzungen
+** TODO Speichern/Export. Mit Laden/Import wäre cool.                  :feat:
+** DONE System für Verletzungen                                        :rule:
    CLOSED: [2020-04-04 Sa 15:14]
   - 5 Stufen
     - Unverletzt
@@ -14,11 +14,18 @@
 	- mittel verletzt: größere Einbußen auf weitere Aspekte
 	- schwer verletzt: keine aktive Teilnahme am Kampf. Einfache Tätigkeiten (Notruf absetzen) möglich. Tod innerhalb von =x= Zeiteinheiten.
 	- handlungsunfähig: Tod innerhalb von =<x= Zeiteinheiten.
-** DONE App-Bug: nicht mehr als 12 Talente wählbar
+** DONE Mehr als 12 Talente wählbar, obwohl Max. auf 12                 :bug:
    CLOSED: [2020-04-04 Sa 15:08]
-** TODO Astralmacht (=Stufe): bestimmt die Stärke des Action-Skills
-** DONE App-UI: Abwählen von Skills über "minus"-Button
+** TODO Astralmacht (=Stufe): bestimmt die Stärke des Action-Skills    :rule:
+** DONE Abwählen von Skills über "minus"-Button                          :ui:
    CLOSED: [2020-04-04 Sa 15:07]
-** DONE App-UI: Würfel-Button hinzufügen
+** DONE Würfel-Button hinzufügen                                         :ui:
    CLOSED: [2020-04-04 Sa 15:37]
-** TODO App-UI: Reaktiv / Handy-tauglich machen
+** TODO Reaktiv / Handy-tauglich machen                                  :ui:
+** TODO Deployment-Script                                             :chore:
+So etwas wie "npm run deploy", mit Actions:
+- npm run build
+- ftp-copy build/* https://hendrik-radke.de/rpg/build/
+** TODO Außergew. Körpergröße und Sprachgenie entfernen                :rule:
+** TODO LI wird größer, wenn man es anwählt                              :ui:
+** TODO Würfeln auf Talente mit 0 Punkten                               :bug:
