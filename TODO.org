@@ -5,7 +5,8 @@
    CLOSED: [2020-04-04 Sa 15:04]
 ** DONE Elementarweber entfernen                                       :rule:
    CLOSED: [2020-04-04 Sa 15:04]
-** TODO Speichern/Export. Mit Laden/Import wäre cool.                  :feat:
+** DONE Speichern/Export. Mit Laden/Import wäre cool.                  :feat:
+   CLOSED: [2020-04-13 Mo 19:11]
 ** DONE System für Verletzungen                                        :rule:
    CLOSED: [2020-04-04 Sa 15:14]
   - 5 Stufen
@@ -29,4 +30,5 @@ So etwas wie "npm run deploy", mit Actions:
 ** DONE Außergew. Körpergröße und Sprachgenie entfernen                :rule:
    CLOSED: [2020-04-13 Mo 18:05]
 ** TODO LI wird größer, wenn man es anwählt                              :ui:
-** TODO Würfeln auf Talente mit 0 Punkten                               :bug:
+** DONE Würfeln auf Talente mit 0 Punkten                               :bug:
+   CLOSED: [2020-04-13 Mo 19:11]

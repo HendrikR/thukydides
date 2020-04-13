@@ -62,6 +62,7 @@ export default class GeneratorApp_Select extends Component {
 			    asp.selected = false
 			    points += asp.points
 			    skills += 1
+			    asp.points = 0
 			} else if (skills > 0) {
 			    asp.selected = true
 			    asp.roll = null
@@ -79,8 +80,10 @@ export default class GeneratorApp_Select extends Component {
 			    asp.selected = false
 			    skills += 1
 			}
-		    } else if (asp.selected && symb === "*") {
-			asp.roll = this.rollDice(asp.points);
+		    } else if (symb === "*") {
+			let points = asp.points == null ? 0 : asp.points
+			console.log("roll " + asp.name + " with " + points + " points")
+			asp.roll = this.rollDice(points);
 		    }
 		}
 		return asp
@@ -126,10 +129,8 @@ export default class GeneratorApp_Select extends Component {
 				  <span className="button" onClick={(event) => this.onClickAsp(event, asp.name, "-")}>-</span>
 				  </div>
 				  <span className={asp.selected ? "vis" : "invis"}>{asp.points}</span>
-				  <div className={asp.selected ? "vis" : "invis"}>
 				  <span className="button" onClick={(event) => this.onClickAsp(event, asp.name, "*")} style={{marginLeft: "1em"}}>⚅</span>
 				  <span key={cat}>{asp.roll}</span>
-				  </div>
 				  </li>))}</ul></li>)
 		)}
 	    </ul>
