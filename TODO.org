@@ -26,6 +26,7 @@
 So etwas wie "npm run deploy", mit Actions:
 - npm run build
 - ftp-copy build/* https://hendrik-radke.de/rpg/build/
-** TODO Außergew. Körpergröße und Sprachgenie entfernen                :rule:
+** DONE Außergew. Körpergröße und Sprachgenie entfernen                :rule:
+   CLOSED: [2020-04-13 Mo 18:05]
 ** TODO LI wird größer, wenn man es anwählt                              :ui:
 ** TODO Würfeln auf Talente mit 0 Punkten                               :bug:
