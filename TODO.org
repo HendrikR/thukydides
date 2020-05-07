@@ -29,6 +29,12 @@ So etwas wie "npm run deploy", mit Actions:
 - ftp-copy build/* https://hendrik-radke.de/rpg/build/
 ** DONE Außergew. Körpergröße und Sprachgenie entfernen                :rule:
    CLOSED: [2020-04-13 Mo 18:05]
-** TODO LI wird größer, wenn man es anwählt                              :ui:
+** NOPE LI wird größer, wenn man es anwählt                              :ui:
+   CLOSED: [2020-05-07 Do 16:29]
+   cannot reproduce.
 ** DONE Würfeln auf Talente mit 0 Punkten                               :bug:
    CLOSED: [2020-04-13 Mo 19:11]
+** DONE 21 als Ergebnis beim Würfeln möglich                            :bug:
+   CLOSED: [2020-05-07 Do 15:58]
+** TODO Buttons sollen wie Buttons funktionieren, nicht wie Text         :ui:
+Insbesondere ist es lästig, wenn mehrfaches Drücken als "Doppelklick" interpertiert wird und Text markiert.

@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import './App.css';
 import DATA from './aspects.js'
 
+/* string format function from stackoverflow */
+if (!String.format) {
+  String.format = function(format) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    return format.replace(/{(\d+)}/g, function(match, number) {
+      return typeof args[number] != 'undefined'  ?  args[number]  :  match;
+    });
+  };
+}
 
 export default class GeneratorApp_Select extends Component {
     state = {
@@ -19,12 +28,14 @@ export default class GeneratorApp_Select extends Component {
 
     constructor() {
 	super()
+	document.title= "Tales of Ayjun -- Heldenbrief"
 	this.state.aspects = DATA.aspects
     }
 
     rollDice(value) {
 	let roll = Math.round(Math.random()*20) + 1
-	return value - roll
+	let str = ""
+	return String.format("{0} - {1} = {2}", value, roll, value-roll)
     }
 
     onClickChar = (event, symb) => {
