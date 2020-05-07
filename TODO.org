@@ -36,5 +36,7 @@ So etwas wie "npm run deploy", mit Actions:
    CLOSED: [2020-04-13 Mo 19:11]
 ** DONE 21 als Ergebnis beim Würfeln möglich                            :bug:
    CLOSED: [2020-05-07 Do 15:58]
-** TODO Buttons sollen wie Buttons funktionieren, nicht wie Text         :ui:
+** DONE Buttons sollen wie Buttons funktionieren, nicht wie Text         :ui:
+   CLOSED: [2020-05-07 Do 16:58]
 Insbesondere ist es lästig, wenn mehrfaches Drücken als "Doppelklick" interpertiert wird und Text markiert.
+** TODO Steigerung von Helden ermöglichen                              :rule:

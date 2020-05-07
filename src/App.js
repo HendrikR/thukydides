@@ -34,7 +34,6 @@ export default class GeneratorApp_Select extends Component {
 
     rollDice(value) {
 	let roll = Math.round(Math.random()*20) + 1
-	let str = ""
 	return String.format("{0} - {1} = {2}", value, roll, value-roll)
     }
 
@@ -136,11 +135,11 @@ export default class GeneratorApp_Select extends Component {
 				  onClick={(event) => this.onClickAsp(event, asp.name, "o")}
 				  title={asp.desc}>{asp.name}</span>
 				  <div className={asp.selected ? "vis" : "invis"}>
-  				  <span className="button" onClick={(event) => this.onClickAsp(event, asp.name, "+")}>+</span>
-				  <span className="button" onClick={(event) => this.onClickAsp(event, asp.name, "-")}>-</span>
+  				  <button className="button" onClick={(event) => this.onClickAsp(event, asp.name, "+")}>+</button>
+				  <button className="button" onClick={(event) => this.onClickAsp(event, asp.name, "-")}>-</button>
 				  </div>
 				  <span className={asp.selected ? "vis" : "invis"}>{asp.points}</span>
-				  <span className="button" onClick={(event) => this.onClickAsp(event, asp.name, "*")} style={{marginLeft: "1em"}}>⚅</span>
+				  <button className="button" onClick={(event) => this.onClickAsp(event, asp.name, "*")} style={{marginLeft: "1em"}}>⬡</button>
 				  <span key={cat}>{asp.roll}</span>
 				  </li>))}</ul></li>)
 		)}
