@@ -23,10 +23,13 @@
 ** DONE Würfel-Button hinzufügen                                         :ui:
    CLOSED: [2020-04-04 Sa 15:37]
 ** TODO Reaktiv / Handy-tauglich machen                                  :ui:
-** TODO Deployment-Script                                             :chore:
+** DONE Deployment-Script                                             :chore:
+   CLOSED: [2020-05-08 Fr 15:35]
 So etwas wie "npm run deploy", mit Actions:
 - npm run build
 - ftp-copy build/* https://hendrik-radke.de/rpg/build/
+Habe das hier benutzt: https://www.npmjs.com/package/ftp-deploy
+einfach nach dem Bauen ~npm run deploy~ ausführen.
 ** DONE Außergew. Körpergröße und Sprachgenie entfernen                :rule:
    CLOSED: [2020-04-13 Mo 18:05]
 ** NOPE LI wird größer, wenn man es anwählt                              :ui:
