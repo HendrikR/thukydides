@@ -5,7 +5,7 @@ export default {
 	    { name: "Meisterschütze", desc: "Kann sehr gut mit modernen Schusswaffen umgehen, insbes. auf große Entfernungen"},
 	    { name: "Tödliche Hände", desc: "Hat Erfahrung im unbewaffneten Nahkampf"},
 	    { name: "Schwertmeister", desc: "Hat Erfahrung im bewaffneten Nahkampf"},
-	    { name: "High-Tech-Waffen", desc: "Umgang mit Strahlenwaffen & größeren Waffensystemen"},
+	    { name: "Komplexe Waffen", desc: "Umgang mit Strahlenwaffen & größeren Waffensystemen"},
 	    { name: "Zenturio / Taktiker", desc: "Erfahrung im Führen kleiner Gruppen (<60 Mann) in Konfliktsituationen"},
 	    { name: "Gunslinger", desc: "beidh. Schießen, Combat-Schießen auf geringe Distanzen, Schnellschüsse etc."},
 	],
@@ -50,7 +50,7 @@ export default {
 	],
 	"Wissen ": [
 	    { name: "Sprachgenie", desc: "Beherrscht viele Sprachen und kann sich schnell neue aneignen"},
-	    { name: "»Wie damals 78 bei Plataea!«", desc: "Außergewöhnliches Geschichtswissen. Weiß zu jeder Situation ein mehr oder minder passendes historisches Beispiel zu nennen."},
+	    { name: "»Wie damals 79 bei Plataea!«", desc: "Außergewöhnliches Geschichtswissen. Weiß zu jeder Situation ein mehr oder minder passendes historisches Beispiel zu nennen."},
 	    { name: "Naturwissenschaftler /  Forscher", desc: "Kennt sich gut mit Naturwissenschaften aus"},
 	    { name: "Giftmischer", desc: "weiß um Herstellung, Einsatz und Wirkung von Giften"},
 	    { name: "Pharmazeutisches Wissen"},
